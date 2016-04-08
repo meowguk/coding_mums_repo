@@ -15,16 +15,16 @@
 <div>
 	<ul>
 		<li>
-			<a href="#">Home</a></li>
+			<a href="index.html">Home</a></li>
 		<li>
-			<a href="#">Resep</a></li>
+			<a href="resep.html">Resep</a></li>
 		<li>
-			<a href="#">Contact</a></li>
+			<a href="contact.html">Contact</a></li>
 	</ul>
 </div>
 
 <div class="resep">
-	<img src="Image/recipebeef-rendang-recipe.1024x1024.jpg" width="150px" height="150px" />
+	<img class="imgrsp" src="Image/recipebeef-rendang-recipe.1024x1024.jpg" width="150px" height="150px" />
 	<h1>Rendang</h1>
 	<p>Rendang. Siapa yang tak kenal makanan ini. 
 	Terlebih akhir-akhir ini setelah Rendang mencatatkan dirinya dalam 100 makanan terlezat di dunia. 
@@ -77,7 +77,8 @@
 	<button onclick="readMore()">Read More</button>
 <br>
 <br>
-<img src="Image/sate_padang.jpg" width="150px" height="150px" />
+
+<img class="imgrsp" src="Image/sate_padang.jpg" width="150px" height="150px" />
 	<h1>Sate Padang</h1>
 	<p>Sate Padang merupakan kuliner khas Sumatera Barat yang menambah kekayaan jenis sate di Indonesia.
 	Hidangan ini terbuat dari daging sapi dan beberapa macam jerohan lainnya seperti lidah maupun usus.
@@ -140,7 +141,15 @@
 	</p>
 </div>
 
-
+<script>
+	function readMore() {
+		var temp = document.getElementBlyd("readMore").style.display;
+		if(temp=="none")
+			document.getElementBlyd("readMore").style.display = "block";
+		else
+			document.getElementBlyd("readMore").style.display = "none";
+	}
+</script>
 
 
 </body>
@@ -148,8 +157,8 @@
 <div id="footer">
 <footer>
 	<h5>Copyright @ CodingMum</h5>
-	<img id="twitter" src="Image/twitter-logo.png" width="30px" height="30px"/>
-	<img id="facebook" src="Image/Facebook_logo_36x36.svg.png" width="30px" height="30px"/>
+		<img id="twitter" src="Image/twitter-logo.png" width="30px" height="30px"/>
+		<img id="facebook" src="Image/Facebook_logo_36x36.svg.png" width="30px" height="30px"/>
 </footer>
 </div>
 

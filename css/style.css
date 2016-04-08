@@ -42,6 +42,7 @@ li a {
 	text-decoration:none;
 }
 
+/* ubah warna ketika disorot dari hitam ke abu-abu*/
 li a:hover {
 	background-color: black;
 }
@@ -53,11 +54,24 @@ li a:hover {
 	margin: 0;
 }
 
+/* ini utk resep.html*/
+.imgrsp {
+	float:left;
+	margin: 29px 20px;
+	border-radius: 4%;
+}
 
+.resep {
+	float:left;
+	width:70%;
+	padding:1%;
+}
 
 #kanan {
 	float:right;
-	margin:0 2% 0 80%;
+	width:20%;
+	padding:2%;
+	height:auto;
 	text-align:left;
 }
 
@@ -72,14 +86,16 @@ form {
 	text-align:center;
 	color:white;
 	padding: 2%;
+	clear: both;
 }
+
 
 #twitter {
 	background-color:black;
 	padding-left: 80%;
+	padding-top:-80%;
 }
 
 #facebook {
 	background-color:black;
-	padding-left: 0%;
 }
