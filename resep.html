@@ -71,6 +71,7 @@
     Usahakan terus di aduk-aduk agar rendang tidak menempel pada wajan, 
     tunggu sampai rendang berubah warna dan mengering<br>
     Angkat rendang, dan siap untuk disajikan.<br>
+    </p>
 	</div>
 	<button onclick="readMore()">Read More</button>
 	
@@ -85,6 +86,7 @@
 	Saus atau bumbu Sate Padang berupa kuah kuning dengan rasa rempah yang cukup menonjol.
 	Penasaran ingin mencoba membuatnya sendiri di rumah? Yuk kita lihat resepnya.
 	</p>
+	
 	<div style="display:none;" id="readMore">
 	<p><strong>Bahan:</strong><br>
     1 kg Daging sapi pilihan, potong ukuran sesuai selera<br>
@@ -118,7 +120,6 @@
     Tunggu sampai santan mendidih, dan sedikit mengeluarkan minyak, kemudian kecilkan api<br>
     Campurkan bahan pelengkap kedalam rendang kemudian aduk lagi sampai merata<br>
     </p>
-	
 	</div>
 	<button onclick="readMore()">Read More</button>
 </div>
@@ -142,11 +143,11 @@
 
 <script>
 	function readMore() {
-		var temp=document.getElementBlyd("readMore").style.display;
+		var temp=document.getElementById("readMore").style.display;
 		if(temp=="none")
-			document.getElementBlyd("readMore").style.display="block";
+			document.getElementById("readMore").style.display="block";
 		else
-			document.getElementBlyd("readMore").style.display="none";
+			document.getElementById("readMore").style.display="none";
 	}
 </script>
 
