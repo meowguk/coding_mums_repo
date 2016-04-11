@@ -65,6 +65,7 @@ li a:hover {
 	float:left;
 	width:70%;
 	padding:1%;
+	text-align:left;
 }
 
 #kanan {
@@ -80,6 +81,10 @@ form {
 	margin:0 0 0 40%;
 }
 
+input {
+	margin:0 0 0 0;
+}
+
 
 #footer {
 	background-color:black;
@@ -87,7 +92,7 @@ form {
 	color:white;
 	padding: 2%;
 	clear: both;
-}
+
 
 
 #twitter {
